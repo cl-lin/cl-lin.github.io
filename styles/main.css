@@ -1,6 +1,6 @@
 header {
     background-image: url("#");
-    background-color: #C4EAB3;
+    background-color: white;
     text-align:left; 
     font-family: 'Comfortaa', 'ABeeZee', Tahoma;
     font-size: 20px;
@@ -17,17 +17,23 @@ header {
 }
 
 #header-links {
+background-color: #C4EAB3;
 text-align: right;
 font-family: 'ABeeZee', Tahoma;
 
-font-size: 20px;
+font-size: 15px;
 
 padding-top: 10px;
-padding-right: 10px;
+padding-right: 40px;
 padding-bottom: 10px;
 padding-left: 0px;
 
+margin-top: -20px;
+margin-right: -20px;
+margin-bottom: 5px;
+margin-left: -20px;
 }
+
 
 a:hover {
     color: #93C17E;
