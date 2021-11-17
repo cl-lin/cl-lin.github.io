@@ -34,6 +34,14 @@ margin-bottom: 5px;
 margin-left: -20px;
 }
 
+body {
+    font-family: 'Montserrat Alternates', Tahoma;
+    font-size: 20px;
+}
+
+.center-page {
+    text-align: center;
+}
 
 a:hover {
-    color: #93C17E;
+    color:white;
