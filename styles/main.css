@@ -1,12 +1,12 @@
 header {
     background-image: url("#");
     background-color: white;
-    text-align:left; 
+    text-align:right; 
     font-family: 'Comfortaa', 'ABeeZee', Tahoma;
     font-size: 20px;
 
     padding-top: 10px;
-    padding-right: 5px;
+    padding-right: 50px;
     padding-bottom: 5px;  
     padding-left: 50px; 
 
@@ -16,23 +16,35 @@ header {
     margin-left: -20px;
 }
 
-#header-links {
+#nav-links {
 background-color: #C4EAB3;
-text-align: right;
+list-style-type: none;
+text-align: left;
 font-family: 'ABeeZee', Tahoma;
-
 font-size: 15px;
 
-padding-top: 10px;
-padding-right: 40px;
-padding-bottom: 10px;
-padding-left: 0px;
+padding: 10px 40px 10px 40px;
 
-margin-top: -20px;
-margin-right: -20px;
-margin-bottom: 5px;
-margin-left: -20px;
+margin: -20px -20px 5px -20px;
 }
+
+#nav-links li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+} 
+
+#nav-links li a {
+    color: black;
+    text-decoration: none;
+}
+
+#nav-links li a:hover {
+    color: white;
+    text-decoration: none;
+} 
+
 
 body {
     font-family: 'Montserrat Alternates', Tahoma;
