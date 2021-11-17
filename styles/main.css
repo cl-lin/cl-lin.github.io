@@ -5,26 +5,19 @@ header {
     font-family: 'Comfortaa', 'ABeeZee', Tahoma;
     font-size: 20px;
 
-    padding-top: 10px;
-    padding-right: 50px;
-    padding-bottom: 5px;  
-    padding-left: 50px; 
-
-    margin-top: -20px;
-    margin-right: -20px;
-    margin-bottom: -20px;
-    margin-left: -20px;
+    padding: 10px 50px 5px 50px; 
+    margin: -20px -20px -20px -20px;
 }
 
 #nav-links {
 background-color: #C4EAB3;
+height: 25px;
 list-style-type: none;
 text-align: left;
 font-family: 'ABeeZee', Tahoma;
 font-size: 15px;
 
-padding: 10px 40px 10px 40px;
-
+padding: 0px 40px 10px 40px;
 margin: -20px -20px 5px -20px;
 }
 
@@ -44,7 +37,6 @@ margin: -20px -20px 5px -20px;
     color: white;
     text-decoration: none;
 } 
-
 
 body {
     font-family: 'Montserrat Alternates', Tahoma;
