@@ -1,23 +1,33 @@
 header {
     background-image: url("#");
-    background-color: #A4E5FF;
+    background-color: #C4EAB3;
     text-align:left; 
-    font-family: 'Mali', Tahoma;
+    font-family: 'Comfortaa', 'ABeeZee', Tahoma;
     font-size: 20px;
 
-    padding-top: 5px;
+    padding-top: 10px;
     padding-right: 5px;
     padding-bottom: 5px;  
-    padding-left: 50px;
+    padding-left: 50px; 
 
-
-   
-
+    margin-top: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    margin-left: -20px;
 }
 
 #header-links {
 text-align: right;
-font-family: sans-serif;
+font-family: 'ABeeZee', Tahoma;
+
 font-size: 20px;
 
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 0px;
+
 }
+
+a:hover {
+    color: #93C17E;
