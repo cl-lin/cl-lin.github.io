@@ -1,9 +1,9 @@
 header {
     background-image: url("#");
-    background-color: white;
-    text-align:right; 
+    background: transparent;
+    text-align: right; 
     font-family: 'Comfortaa', 'ABeeZee', Tahoma;
-    font-size: 20px;
+    font-size: 25px;
 
     padding: 10px 50px 5px 50px; 
     margin: -20px -20px -20px -20px;
@@ -12,10 +12,13 @@ header {
 #nav-links {
 background-color: #C4EAB3;
 height: 25px;
+opacity: 0.8;
 list-style-type: none;
 text-align: left;
 font-family: 'ABeeZee', Tahoma;
 font-size: 15px;
+
+border-radius: 15px;
 
 padding: 0px 40px 10px 40px;
 margin: -20px -20px 5px -20px;
@@ -40,8 +43,12 @@ margin: -20px -20px 5px -20px;
 
 body {
     font-family: 'Montserrat Alternates', Tahoma;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 20px 40px 20px 40px; 
+
 }
+
+
 
 .center-page {
     text-align: center;
@@ -49,3 +56,32 @@ body {
 
 a:hover {
     color:white;
+}
+
+footer {
+    background-color: #C4EAB3;
+    height: 25px;
+    opacity: 0.8;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'ABeeZee', Tahoma;
+    font-size: 17px;
+    
+    border-radius: 15px;
+    
+    padding: 40x 40px 10px 40px;
+    margin: 20px 0px 0px 0px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+.blog {
+    margin: 20px;
+    padding: 0px 20px 10px 20px
+}
