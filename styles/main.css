@@ -46,8 +46,6 @@ body {
     font-size: 18px;
     background: ;
     padding: 20px 40px 20px 40px;
-
-
 }
 
 .center-page {
@@ -76,7 +74,27 @@ footer {
 .blog-width {
     margin: auto;
     width: 85%;
+    padding: 20px 0px 0px 0px;
 
+}
+
+.blog-width a {
+    color:seagreen;
+    text-decoration: none;
+
+}
+
+.blog-width a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+mark {
+    color:  #6e46a1;
+    background-color: #f0efef;
+    display: inline-block;
+    padding 3px;
+    margin: 2px;
 }
 
 footer a {
