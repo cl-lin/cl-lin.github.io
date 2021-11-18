@@ -42,13 +42,13 @@ margin: -20px -20px 5px -20px;
 } 
 
 body {
-    font-family: 'Montserrat Alternates', Tahoma;
+    font-family: 'Quicksand', sans-serif;
     font-size: 18px;
-    padding: 20px 40px 20px 40px; 
+    background: ;
+    padding: 20px 40px 20px 40px;
+
 
 }
-
-
 
 .center-page {
     text-align: center;
@@ -60,17 +60,23 @@ a:hover {
 
 footer {
     background-color: #C4EAB3;
-    height: 25px;
+    height: 15px;
     opacity: 0.8;
     list-style-type: none;
     text-align: center;
     font-family: 'ABeeZee', Tahoma;
-    font-size: 17px;
+    font-size: 18px;
     
     border-radius: 15px;
     
-    padding: 40x 40px 10px 40px;
-    margin: 20px 0px 0px 0px;
+    padding: 0px 20px 10px 20px;
+    margin: 20px auto 5px auto;
+}
+
+.blog-width {
+    margin: auto;
+    width: 85%;
+
 }
 
 footer a {
@@ -80,8 +86,5 @@ footer a {
 
 footer a:hover {
     color: white;
-    text-decoration: none;
-.blog {
-    margin: 20px;
-    padding: 0px 20px 10px 20px
+    text-decoration: none; 
 }
