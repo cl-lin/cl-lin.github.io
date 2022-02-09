@@ -44,7 +44,7 @@ margin: -20px -20px 5px -20px;
 body {
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
-    background: ;
+    background: white;
     padding: 20px 40px 20px 40px;
 }
 
@@ -93,7 +93,7 @@ mark {
     color:  #6e46a1;
     background-color: #f0efef;
     display: inline-block;
-    padding 3px;
+    padding: 3px;
     margin: 2px;
 }
 
@@ -117,3 +117,21 @@ footer a:hover {
 h3 {
     color: rgb(20, 83, 48)
 }
+
+@media only screen and (max-width: 320px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: lightyellow;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    body {
+      background-color: white;
+    }
+  }
